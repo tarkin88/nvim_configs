@@ -50,5 +50,6 @@
   ],
   "python.linting.enabled": true,
   "python.linting.flake8Enabled": true,
-  "python.linting.pylintEnabled": true
+  "python.linting.pylintEnabled": true,
+  "git.enableGutters": true
 }

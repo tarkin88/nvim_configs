@@ -11,8 +11,7 @@ require('fzf-lua').setup{
 }
 EOF
 
-nnoremap <C-p> <cmd>FzfLua fzf_files<CR>
-nnoremap <F5> <cmd>FzfLua files<CR>
+nnoremap <C-p> <cmd>FzfLua files<CR>
 nnoremap <F6> <cmd>FzfLua oldfiles<CR>
 nnoremap <F7> <cmd>FzfLua grep<CR>
 nnoremap <F8> <cmd>FzfLua grep_cword<CR>

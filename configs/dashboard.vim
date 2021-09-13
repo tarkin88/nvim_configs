@@ -1,4 +1,4 @@
-let g:dashboard_default_executive ='fzf'
+" let g:dashboard_default_executive ='fzf'
 let g:dashboard_custom_header=[
       \    '',
       \'⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⣠⣤⣤⣴⣦⣤⣤⣄⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ',
@@ -34,12 +34,12 @@ let g:dashboard_custom_section={
 	  	\ 'command': "FzfLua grep"
       \},
 	    \'d': {
-  		\ 'description': ['  Load last session saved      leader sl'],
-	  	\ 'command': "SessionLoad"
+  		\ 'description': ['  Project Bookmars                    F4'],
+	  	\ 'command': "BookmarkShowAll"
       \},
 	    \'e': {
-  		\ 'description': ['  Marks                        leader sm'],
-	  	\ 'command': "FzfLua marks"
+  		\ 'description': ['  Load last session saved      leader sl'],
+	  	\ 'command': "SessionLoad"
       \},
 	\ }
 

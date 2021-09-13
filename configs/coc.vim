@@ -146,7 +146,7 @@ let g:coc_snippet_prev = '<c-k>'
 imap <C-j> <Plug>(coc-snippets-expand-jump)
 
 " Show all diagnostics.
-nnoremap <silent><F10> :<C-u>CocList diagnostics<cr>
+nnoremap <silent><F3> :<C-u>CocList diagnostics<cr>
 " Show commands.
 nnoremap <silent><F9> <cmd>Format<cr>
 

@@ -37,8 +37,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'kyazdani42/nvim-web-devicons'
   Plug 'romgrk/barbar.nvim'
   Plug 'farmergreg/vim-lastplace'
-  " Plug 'rhysd/clever-f.vim'
   Plug 'easymotion/vim-easymotion'
+  Plug 'MattesGroeger/vim-bookmarks'
 
 call plug#end()
 
