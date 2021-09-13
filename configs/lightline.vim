@@ -9,7 +9,7 @@ let g:lightline = {
       \             [ 'relativepath', 'readonly', 'modified' ] ],
       \   'right': [
         \ ['cocstatus'],
-        \ ['lineinfo'], ['percent'], ['gitbranch'],
+        \ ['lineinfo'], ['percent'],
         \  ],
       \ },
       \ 'inactive': {
@@ -18,7 +18,6 @@ let g:lightline = {
       \ 'component_function': {
       \   'cocstatus': 'coc#status',
       \   'currentfunction': 'CocCurrentFunction',
-      \   'gitbranch': 'gitbranch#name'
       \ },
       \ 'mode_map': {
         \ 'n' : 'N',

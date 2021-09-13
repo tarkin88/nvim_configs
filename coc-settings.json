@@ -10,7 +10,7 @@
   "diagnostic.hintSign": " ",
   "diagnostic.enableHighlightLineNumber": true,
   "diagnostic.refreshOnInsertMode": true,
-  "diagnostic.virtualText": true,
+  "diagnostic.virtualText": false,
   "list.indicator": ">",
   "list.selectedSignText": " ",
   "coc.preferences.formatOnSaveFiletypes": [

@@ -15,10 +15,9 @@ source $HOME/.config/nvim/configs/lightline.vim
 " Configurations
 source $HOME/.config/nvim/configs/barbar.vim
 source $HOME/.config/nvim/configs/carbon.vim
-source $HOME/.config/nvim/configs/cleaver-f.vim
 source $HOME/.config/nvim/configs/coc.vim
 source $HOME/.config/nvim/configs/commentary.vim
-source $HOME/.config/nvim/configs/fzf.vim
+source $HOME/.config/nvim/configs/fzf_nvim.vim
 source $HOME/.config/nvim/configs/gutentags.vim
 source $HOME/.config/nvim/configs/nvimtree.vim
 source $HOME/.config/nvim/configs/rooter.vim

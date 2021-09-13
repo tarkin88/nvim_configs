@@ -23,15 +23,15 @@ let g:dashboard_custom_section = {}
 let g:dashboard_custom_section={
 	    \'a': {
   		\ 'description': ['  Recently Used Files                 F6'],
-	  	\ 'command': "History"
+	  	\ 'command': "FzfLua oldfiles"
       \},
 	    \'b': {
   		\ 'description': ['  Find File                           F5'],
-	  	\ 'command': "Files"
+	  	\ 'command': "FzfLua files"
       \},
 	    \'c': {
   		\ 'description': ['  Find Word                           F7'],
-	  	\ 'command': "Rg"
+	  	\ 'command': "FzfLua grep"
       \},
 	    \'d': {
   		\ 'description': ['  Load last session saved      leader sl'],
@@ -39,7 +39,7 @@ let g:dashboard_custom_section={
       \},
 	    \'e': {
   		\ 'description': ['  Marks                        leader sm'],
-	  	\ 'command': "Marks"
+	  	\ 'command': "FzfLua marks"
       \},
 	\ }
 
