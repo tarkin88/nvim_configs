@@ -1,4 +1,3 @@
-" let g:dashboard_default_executive ='fzf'
 let g:dashboard_custom_header=[
       \    '',
       \'⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⣠⣤⣤⣴⣦⣤⣤⣄⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ',
@@ -26,7 +25,7 @@ let g:dashboard_custom_section={
 	  	\ 'command': "FzfLua oldfiles"
       \},
 	    \'b': {
-  		\ 'description': ['  Find File                           F5'],
+  		\ 'description': ['  Find Files                         C-p'],
 	  	\ 'command': "FzfLua files"
       \},
 	    \'c': {
@@ -34,10 +33,6 @@ let g:dashboard_custom_section={
 	  	\ 'command': "FzfLua grep"
       \},
 	    \'d': {
-  		\ 'description': ['  Project Bookmars                    F4'],
-	  	\ 'command': "BookmarkShowAll"
-      \},
-	    \'e': {
   		\ 'description': ['  Load last session saved      leader sl'],
 	  	\ 'command': "SessionLoad"
       \},
@@ -46,4 +41,3 @@ let g:dashboard_custom_section={
 
 nmap <Leader>ss :<C-u>SessionSave<CR>
 nmap <Leader>sl :<C-u>SessionLoad<CR>
-nmap <Leader>sm :<C-u>Marks<CR>

@@ -26,29 +26,10 @@ vnoremap > >gv
 inoremap <expr> <c-j> ("\<C-n>")
 inoremap <expr> <c-k> ("\<C-p>")
 
-" Better window navigation
-nnoremap <C-h> <C-w>h
-nnoremap <C-j> <C-w>j
-nnoremap <C-k> <C-w>k
-nnoremap <C-l> <C-w>l
 
 
 " Change into split panels
 nnoremap  <silent>   <M-tab> <C-w>w <CR>
-
-nnoremap <silent> <M-Right> :bnext<CR>
-nnoremap <silent> <M-Left> :bprevious<CR>
-nnoremap <silent> <M-Down> :bd<CR>
-
-nnoremap <silent>    <C-1> :BufferGoto 1<CR>
-nnoremap <silent>    <C-2> :BufferGoto 2<CR>
-nnoremap <silent>    <C-3> :BufferGoto 3<CR>
-nnoremap <silent>    <C-4> :BufferGoto 4<CR>
-nnoremap <silent>    <C-5> :BufferGoto 5<CR>
-nnoremap <silent>    <C-6> :BufferGoto 6<CR>
-nnoremap <silent>    <C-7> :BufferGoto 7<CR>
-nnoremap <silent>    <C-8> :BufferGoto 8<CR>
-nnoremap <silent>    <C-9> :BufferLast<CR>
 
 " Make an new habit
 " map <Left> <Nop>
@@ -57,8 +38,8 @@ nnoremap <silent>    <C-9> :BufferLast<CR>
 " map <Down> <Nop>
 
 " Use the space key to toggle folds
-nnoremap <silent> <space> za
-vnoremap <silent> <space> zf
+" nnoremap <silent> <space> za
+" vnoremap <silent> <space> zf
 
 " nnoremap <silent> <M-S-Right>    :vertical resize -2<CR>
 " nnoremap <silent> <M-S-Left>    :vertical resize +2<CR>

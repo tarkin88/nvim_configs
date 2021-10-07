@@ -3,7 +3,5 @@ if has('termguicolors')
   set termguicolors
 endif
 
-
 colorscheme doom-one
-let g:doom_one_terminal_colors = v:true
-
+let g:doom_one_terminal_colors = v:false

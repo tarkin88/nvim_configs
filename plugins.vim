@@ -9,9 +9,10 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 " ---------------------------------------
 "            Colors
 " ---------------------------------------
+  " Plug 'PHSix/nvim-hybrid'
   Plug 'NTBBloodbath/doom-one.nvim'
   Plug 'nvim-treesitter/nvim-treesitter'
-  " Plug 'tweekmonster/startuptime.vim'
+  Plug 'tweekmonster/startuptime.vim'
 " ---------------------------------------
 "            General stuff
 " ---------------------------------------
@@ -19,13 +20,12 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'kristijanhusak/vim-carbon-now-sh', { 'on':  'CarbonNowSh' }
   Plug 'tpope/vim-commentary', { 'on':  'Commentary' }
   Plug 'itchyny/lightline.vim'
+  Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
   " ---------------------------------------
   "            Code Quality
   " ---------------------------------------
   Plug 'neoclide/coc.nvim', {'branch': 'release'}
   Plug 'honza/vim-snippets'
-  Plug 'tmhedberg/SimpylFold', {'for': 'python'}
-  " Plug 'tpope/vim-surround'
   " ---------------------------------------
   "            Navigation
   " ---------------------------------------
@@ -33,13 +33,14 @@ call plug#begin('~/.config/nvim/autoload/plugged')
   Plug 'airblade/vim-rooter'
   Plug 'ibhagwan/fzf-lua'
   Plug 'vijaymarupudi/nvim-fzf'
-  Plug 'kyazdani42/nvim-tree.lua', {'on':'NvimTreeToggle'}
-  Plug 'kyazdani42/nvim-web-devicons'
-  Plug 'romgrk/barbar.nvim'
+  Plug 'kyazdani42/nvim-web-devicons' 
+  Plug 'kyazdani42/nvim-tree.lua'
+  Plug 'akinsho/bufferline.nvim'
+  Plug 'liuchengxu/vista.vim', {'on': 'Vista'}
   Plug 'farmergreg/vim-lastplace'
-  Plug 'easymotion/vim-easymotion'
-  Plug 'MattesGroeger/vim-bookmarks'
-
+  Plug 'folke/twilight.nvim'
+  Plug 'folke/zen-mode.nvim', {'on': 'ZenMode'}
+  Plug 'pechorin/any-jump.vim', {'on': 'AnyJump'}
 call plug#end()
 
 " Automatically install missing plugins on startup

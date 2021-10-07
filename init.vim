@@ -13,8 +13,8 @@ source $HOME/.config/nvim/plugins.vim
 source $HOME/.config/nvim/configs/doomone.vim
 source $HOME/.config/nvim/configs/lightline.vim
 " Configurations
-source $HOME/.config/nvim/configs/barbar.vim
-source $HOME/.config/nvim/configs/bookmarks.vim
+source $HOME/.config/nvim/configs/anyjump.vim
+source $HOME/.config/nvim/configs/bufferline.vim
 source $HOME/.config/nvim/configs/carbon.vim
 source $HOME/.config/nvim/configs/coc.vim
 source $HOME/.config/nvim/configs/commentary.vim
@@ -24,3 +24,6 @@ source $HOME/.config/nvim/configs/gutentags.vim
 source $HOME/.config/nvim/configs/nvimtree.vim
 source $HOME/.config/nvim/configs/rooter.vim
 source $HOME/.config/nvim/configs/treesitter.vim
+source $HOME/.config/nvim/configs/twilight.vim
+source $HOME/.config/nvim/configs/vista.vim
+source $HOME/.config/nvim/configs/zen.vim
