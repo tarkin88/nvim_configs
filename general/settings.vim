@@ -51,7 +51,7 @@ set formatoptions-=cro                  " Stop newline continution of comments
   set listchars=tab:>·,trail:~,extends:>,precedes:<,space:·
 
   " Providers
-  let g:python3_host_prog  = '~/.pyenv/shims/python3'
+  let g:python3_host_prog  = '/home/frank/.pyenv/shims/python'
   let g:loaded_python_provider = 0
 
 
